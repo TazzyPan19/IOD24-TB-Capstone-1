@@ -1,0 +1,346 @@
+/* NOTE Global Styling */
+body {
+    overflow-x: visible;
+}
+
+li, ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.no-style-listing {
+    margin: 0;
+}
+
+/* NOTE Font Styling */
+
+.outfit-regular {
+  font-family: "Outfit", system-ui;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.outfit-regular a {
+    font-family: "Outfit", system-ui;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+  }
+
+.outfit-regular > input {
+    font-family: "Outfit", system-ui;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.bayon-regular {
+    font-family: "Bayon", system-ui;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.navbar-bg{
+    background-color: #13131c;
+    height: 120px;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    margin: auto auto;
+    justify-content: end;
+    list-style-type: none;
+    list-style: none;
+}
+
+.highlight-links a {
+    color: #ffffff;
+}
+
+.nav-pad {
+    margin: 0px 0px 0px 20px;
+    text-decoration: none;
+}
+
+.app-content-wrapper {
+    background-color: #bebeff;
+    width: 900px;
+    height: 110vh;
+    padding: 20px;
+    margin: 40px auto 40px auto;
+}
+
+.app-content-wrapper-adoptform {
+    /* background-color: #bebeff; */
+    width: 900px;
+    height: 110vh;
+    padding: 20px;
+    margin: 40px auto 40px auto;
+}
+
+.app-content-wrapper-01 {
+    width: 960px;
+    height: 110vh;
+    margin: 40px auto 40px auto;
+}
+
+.app-content-wrapper-02 {
+    width: 1400px;
+    height: 110vh;
+    margin: 40px auto 40px auto;
+    /* border: red solid 1px; */
+    box-sizing: border-box;
+    /* border-radius: 100px; */
+}
+
+.app-content-wrapper-card {
+    width: 900px;
+    height: unset;
+    margin: 40px auto 40px auto;
+}
+
+.app-content-wrapper-viewer {
+    width: 1200px;
+    height: unset;
+    margin: 40px auto 40px auto;
+}
+
+.app-content-wrapper-listing {
+    width: 900px;
+    height: unset;
+    margin: 40px auto 40px auto;
+}
+
+.app-content-wrapper-policy {
+    width: 900px;
+    height: unset;
+    margin: 40px auto 40px auto;
+}
+
+.app-content-wrapper2 {
+    background-color: #bebeff;
+    width: 400px;
+    /* height: 110vh; */
+    padding: 20px;
+    border-radius: 6px;
+    margin: 40px auto 40px auto;
+}
+
+/* NEW - */
+
+.login-container {
+    /* background-color: #7373fd; */
+    /* width: inherit; */
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container > input {
+   margin: 10px 10px 10px 10px;
+   padding: 10px;
+   border-radius: 6px;
+}
+
+.login-container > input:focus-visible {
+    outline: 3px solid hsla(210, 98%, 42%, 0.5);
+    border-color: hsl(210, 98%, 48%);
+ }
+
+.signup-button {
+    background-color: #211a2b;
+    color: #ffffff;
+    border-width: 2px;
+    border-color: #503a6e;
+    border-radius: 6px;
+    border-style: solid;
+ }
+
+/* .form-btn-style {
+    border-color: #1b1b1b;
+    border-width: 2px;
+    border-style: solid;
+} */
+
+.form-btn-style > input {
+    border-color: #515151;
+    border-width: 1px;
+    border-style: solid;
+    cursor: text;
+}
+
+.pet-card-title {
+    color: #ffffff;
+    margin: 0px;
+    bottom: 8px;
+    left: 16px;
+}
+
+.pet-card-wrapper {
+    position: absolute;
+    background-color: #13131c;
+    text-align: center;
+    width: 420px;
+    padding: 20px 20px 20px 20px;
+    z-index: 1;
+}
+
+.pet-card-img {
+    width: 100%;
+    filter: brightness(50%);
+    transition: filter 1s;
+}
+
+.pet-card-img:hover {
+    filter: brightness(100%);
+}
+
+.App .mui-badge-custom > span{
+    background-color: #644df5;
+    right: -4px;
+    color: #ffffff;
+    font-size: 0.7rem;
+}
+
+.listing-searchbar {
+    background-color: #bebeff;
+    height: 400px;
+    padding: 20px;
+}
+
+.listing-container {
+    display: flex;
+    flex-direction: column;
+ }
+
+.listing-container > input {
+    /* width: 50%; */
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    border-radius: 6px;
+ }
+
+.App .mui-drop-custom > div {
+    background-color: #ffffff;
+    padding: 10px 20px 10px 20px;
+}
+
+.App .mui-drop-custom > div {
+    font-family: "Outfit", system-ui;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.App .mui-pagination-custom > ul > li > button:hover {
+    background-color: #634df524;
+    color: #000000;
+}
+
+.App .mui-pagination-custom > ul > li > button {
+    font-family: "Outfit", system-ui;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.App .css-q7jpt8-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    background-color: #634df5;
+    color: #ffffff;
+}
+
+.pet-listing-card-wrapper {
+    display: flex;
+    width: 100%;
+    height: 220px;
+    margin: 40px 0px 0px 0px;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.account-aside-01 > li {
+    padding: 30px 20px 30px 20px;
+    cursor: pointer;
+    color: #ffffff;
+    border-bottom: solid 2px #ffffff;
+}
+
+.account-aside-01 > li > a {
+    color: #ffffff;
+    text-decoration-line: none;
+}
+
+.account-aside-02 > li {
+    padding: 20px 20px 20px 20px;
+    cursor: pointer;
+    color: #ffffff;
+    border-top: solid 2px #ffffff;
+}
+
+.account-aside-02 > li > a {
+    color: #ffffff;
+    text-decoration-line: none;
+}
+
+.account-aside-02:hover > li > a {
+    transition: ease-in 300ms;
+    color: #f54d4d;
+}
+
+.App .css-1qlhtqz-MuiDataGrid-root {
+    font-family: "Outfit", system-ui;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.App .css-pdct74-MuiTablePagination-selectLabel {
+    font-family: "Outfit", system-ui;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.App .MuiToolbar-root > div {
+    font-family: "Outfit", system-ui;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.App .MuiToolbar-root > p {
+    font-family: "Outfit", system-ui;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.service-icon-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.filtered-img-female {
+    filter: invert(16%) sepia(91%) saturate(5208%) 
+    hue-rotate(225deg) brightness(93%) 
+    contrast(122%);
+}
+
+.filtered-img-male {
+    filter: invert(16%) sepia(51%) saturate(400%) 
+    hue-rotate(115deg) brightness(93%) 
+    contrast(72%);
+}
+
+.pet-infoboard > li {
+    margin-bottom: 5px;
+}

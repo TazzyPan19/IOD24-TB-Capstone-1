@@ -1,0 +1,60 @@
+{
+    "Catergories": {
+        "Dog Breeds": [
+            "Australian Kelpie",
+            "Alaskan Malamute" 
+        ],
+        "Cat Breeds" : [
+            "Main Coon",
+            "Bombay Cat",
+            "Norwegian Forest cat",
+            "American Bobtail",
+            "Toyger",
+            "Khao Manee",
+            "Australian Mist",
+            "Egyptian Mau"
+        ],
+        "Bird Breeds" : [
+            "Rainbow Lorikeet",
+            "Conures",
+            "Cockatiel",
+            "Finch",
+            "Abyssinian Lovebird",
+            "Border Canary",
+            "Bridled Titmouse",
+            "Fischer’s Lovebird",
+            "Grey Parrot",
+            "Maximilian’s Pionus"
+        ],
+        "Rabbit Breeds" : [
+            "American Sable",
+            "Angora Rabbit",
+            "Belgian Hare",
+            "Dutch Rabbit",
+            "Blanc De Hotot",
+            "Netherland Dwarf Rabbit"
+        ],
+        "Guinea Pigs Breeds" : [
+            "American",
+            "White Crested",
+            "Rex",
+            "Silkie / Sheltie",
+            "Peruvian",
+            "Coronet"
+        ],
+        "Ferrets" : [],
+        "Urls" : [
+            "https://www.earthreminder.com/types-of-mice/",
+            "https://www.coopsandcages.com.au/blog/ultimate-list-birds-breeds/",
+            "https://www.somerzby.com.au/blog/ultimate-list-rabbit-breeds/?srsltid%3DAfmBOooe7xYlye2899rlMKn1QC3_iiIunSztRYvtl0nBuCc261SVS9Xw"
+        ],
+        "Other Breeds": [
+            "American Staffordshire Terrier",
+            "Australian Terrier",
+            "Border Collie",
+            "Cocker Spaniel",
+            "Dachshund Kaninchen Smooth Haired",
+            "Harrier"
+        ]
+    }
+}

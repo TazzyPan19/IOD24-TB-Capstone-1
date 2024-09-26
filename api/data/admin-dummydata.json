@@ -1,0 +1,28 @@
+{
+    "datasheet": [
+        {
+            "id": 1,
+            "firstName": "Quinn",
+            "lastName": "Oppentimer",
+            "gender": "male",
+            "emailAddress": "adminquinn780562@pets.com",
+            "password": "$MongooseHaloDriver$40",
+            "phoneNumber": "0457452889",
+            "driversLicense": "7452889",
+            "dateCreated": "2024-09-01T09:39:05.838Z",
+            "dateUpdated": "2024-09-01T09:39:05.838Z"
+        },
+        {
+            "id": 2,
+            "firstName": "Lauren",
+            "lastName": "Bauchmann",
+            "gender": "female",
+            "emailAddress": "adminlauren340023@pets.com",
+            "password": "pancakeMess!!230523",
+            "phoneNumber": "0457452889",
+            "driversLicense": "7452889",
+            "dateCreated": "2024-09-01T09:39:05.838Z",
+            "dateUpdated": "2024-09-01T09:39:05.838Z"
+        }
+    ]
+}
